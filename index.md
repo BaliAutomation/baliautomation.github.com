@@ -28,3 +28,6 @@ When the competition is talking about future solutions to customer's information
 the competition is twisting and tweaking old technologies, so that it can be labeled Internet, Bali Automation has
 developed a completely new concept and approach to Process Control, completely built from the ground up on top of the
 most robust, reliable and proven infrastructure available - the Internet..
+
+
+Niclas..
