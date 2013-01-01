@@ -401,6 +401,72 @@ p b, div.figure p.title b, div.table p.title b
     font-weight: normal;
 }
 
+/* BEGIN SIDE NOTES */
+div.important, div.info, div.tip, div.note,
+div.warning, div.caution
+{
+    float: right;
+    max-width: 20em;
+    margin: 1em 0 1em 1em !important;
+    padding: 1em !important;
+    font-size: 0.9em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+div.important, div.info, div.tip, div.note
+{
+    background-color:  rgba(11, 117, 188, 0.1) !important;
+    border: 1px solid #0b75bc;
+}
+div.warning
+{
+    background-color:  rgba(188, 117, 11, 0.1) !important;
+    border: 1px solid #bc750b;
+}
+div.caution
+{
+    background-color:  rgba(188, 11, 11, 0.1) !important;
+    border: 1px solid #bc0b0b;
+}
+div.important h3, div.info h3, div.tip h3, div.note h3,
+div.warning h3, div.caution h3
+{
+    margin: 0 0 0.5em 0 !important;
+    line-height: 50px;
+    padding-right: 55px;
+    background-position: top right !important;
+    background-repeat: no-repeat !important;
+}
+div.important h3
+{
+    background-image: url("important.png");
+}
+div.info h3, div.tip h3
+{
+    background-image: url("tip.png");
+}
+div.note h3
+{
+    background-image: url("note.png");
+}
+div.warning h3
+{
+    background-image: url("warning.png");
+    color: #bc750b;
+}
+div.caution h3
+{
+    background-image: url("caution.png");
+    color: #bc0b0b;
+}
+div.important p, div.info p, div.tip p, div.note p,
+div.warning p, div.caution p
+{
+    margin: 0 0 0.5em 0 !important;
+}
+/* END SIDE NOTES */
+
 div.important td p, div.info td p, div.tip td p,
 div.warning td p, div.note td p, div.caution td p
 {
