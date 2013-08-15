@@ -1,3 +1,9 @@
+.inlinemediaobject img
+{
+    position: absolute;
+    right: 1em;
+}
+
 span.remark
 {
     background: yellow;
