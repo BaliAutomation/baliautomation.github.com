@@ -58,7 +58,7 @@ h2.title
 {
     position: fixed;
     top: 12px;
-    left: 50px;
+    left: 20px;
     z-index: 25;
 }
 
@@ -81,7 +81,7 @@ h2.title
 .top-nav .toc dl
 {
     margin: 0;
-    padding: 105px 0 7px 0;
+    padding: 90px 0 7px 0;
     text-align: center;
     background-image: linear-gradient(bottom, rgb(49, 105, 165) 100%, rgb(255, 255, 255) 0%);
     background-image: -o-linear-gradient(bottom, rgb(49, 105, 165) 100%, rgb(255, 255, 255) 0%);
@@ -95,7 +95,7 @@ h2.title
 .top-nav .toc dt
 {
     display: inline;
-    font-size: 18pt;
+    font-size: 14pt;
     display: inline;
     margin-left: 2px;
     padding-left: 2px;
@@ -134,7 +134,7 @@ h2.title
 .top-nav .toc dt a,
 .top-nav .toc dt span span
 {
-    padding: 15px 15px 0px 15px;
+    padding: 5px 15px 0px 15px;
     text-decoration: none;
     /*background-image: linear-gradient(bottom, rgb(191, 191, 191) 100%, rgb(255, 255, 255) 0%);*/
     /*background-image: -o-linear-gradient(bottom, rgb(191, 191, 191) 100%, rgb(255, 255, 255) 0%);*/

@@ -599,3 +599,12 @@ div.slide p, div.slide li
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+.figure .title {
+    display: none;
+}
+
+.figure-contents {
+    float: left;
+    position: absolute;
+    margin-left: -50px;
+}
