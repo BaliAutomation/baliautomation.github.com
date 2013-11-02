@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Networking</title><link rel="stylesheet" type="text/css" href="css/style.css" /><meta name="generator" content="DocBook XSL Stylesheets V1.76.1" /><link rel="home" href="index.html" title="" /><link rel="up" href="engineering.html" title="Engineering" /><link rel="prev" href="engineering.html" title="Engineering" /><link rel="next" href="doc-io.html" title="I/O Drivers" />
+
+
+<!-- favicon -->
+
+<link rel="shortcut icon" href="http://www.bali.io/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="http://www.bali.io/favicon.ico" type="image/x-icon" />
+
+<!-- style -->
+
+<link href="css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="css/shCoreEclipse.css" rel="stylesheet" type="text/css" />
+<link href="css/shThemeEclipse.css" rel="stylesheet" type="text/css" />
+<link href="css/balixo.css" rel="stylesheet" type="text/css" />
+
+<!-- Syntax Highlighter -->
+
+<script type="text/javascript" src="js/shCore.js"></script>
+<script type="text/javascript" src="js/shBrushJava.js"></script>
+<script type="text/javascript" src="js/shBrushJScript.js"></script>
+<script type="text/javascript" src="js/shBrushBash.js"></script>
+<script type="text/javascript" src="js/shBrushPlain.js"></script>
+<script type="text/javascript" src="js/shBrushXml.js"></script>
+<script type="text/javascript" src="js/shBrushGroovy.js"></script>
+<script type="text/javascript" src="js/shBrushPython.js"></script>
+<script type="text/javascript" src="js/shBrushRuby.js"></script>
+<script type="text/javascript" src="js/shBrushCSharp.js"></script>
+
+<script type="text/javascript">
+  SyntaxHighlighter.defaults['tab-size'] = 4;
+  SyntaxHighlighter.defaults['gutter'] = false;
+  SyntaxHighlighter.defaults['toolbar'] = false;
+  SyntaxHighlighter.all()
+</script>
+
+<!-- JQuery -->
+
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+
+<!-- Image Scaler -->
+
+<script type="text/javascript" src="js/imagescaler.js"></script>
+
+<!-- Table Styler -->
+
+<script type="text/javascript" src="js/tablestyler.js"></script>
+
+<!-- Version Switcher -->
+
+<script type="text/javascript" src="js/versionswitcher.js"></script>
+
+<!-- WebSite Progressive Enhancement -->
+
+<link href="css/progressive-enhancement.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.scrollTo-1.4.2.js"></script>
+<script type="text/javascript" src="js/progressive-enhancement.js"></script>
+
+<!-- Analytics -->
+ <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3118496-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ </script>
+
+  </head><body><div xmlns="" xmlns:exsl="http://exslt.org/common" class="logo"><a href="index.html"><img src="images/logo.png" /></a></div><div xmlns="" xmlns:exsl="http://exslt.org/common" class="top-nav"><div xmlns="http://www.w3.org/1999/xhtml" class="toc"><dl><dt><span class="section"><a href="index.html#_home">Home</a></span></dt><dt><span class="section"><a href="products.html">Products</a></span></dt><dt><span class="section"><a href="services.html">Services</a></span></dt><dt><span class="section"><a href="manual.html">Manual</a></span></dt><dt><span class="section"><span xmlns="" href="engineering.html">Engineering</span></span></dt><dt><span class="section"><a href="company.html">Company</a></span></dt></dl></div></div><div xmlns="" xmlns:exsl="http://exslt.org/common" class="sub-nav"><div xmlns="http://www.w3.org/1999/xhtml" class="toc"><dl><dt><span class="section"><a href="engineering.html#_overview">Overview</a></span></dt><dt><span class="section"><span xmlns="" href="doc-network.html">Networking</span></span></dt><dt><span class="section"><a href="doc-io.html">I/O Drivers</a></span></dt><dt><span class="section"><a href="programming.html">Programming</a></span></dt><dt><span class="section"><a href="doc-blocktypes.html">Block Types</a></span></dt><dt><span class="section"><a href="block-Absolute.html">Absolute</a></span></dt><dt><span class="section"><a href="block-Add4.html">Add4</a></span></dt><dt><span class="section"><a href="block-AlarmPoint.html">AlarmPoint</a></span></dt><dt><span class="section"><a href="block-AnalogInput.html">AnalogInput</a></span></dt><dt><span class="section"><a href="block-AutoManual.html">AutoManual</a></span></dt><dt><span class="section"><a href="block-Curve.html">Absolute</a></span></dt><dt><span class="section"><a href="block-IndoorRegulator.html">IndoorRegulator</a></span></dt><dt><span class="section"><a href="block-ManualOverride.html">ManualOverride</a></span></dt><dt><span class="section"><a href="block-Multiply4.html">Multiply4</a></span></dt><dt><span class="section"><a href="block-RangeCheck.html">RangeCheck</a></span></dt><dt><span class="section"><a href="block-RsLatch.html">RsLatch</a></span></dt><dt><span class="section"><a href="block-Subtract.html">Subtract</a></span></dt><dt><span class="section"><a href="block-YearSchedule.html">YearSchedule</a></span></dt></dl></div></div><div class="section" title="Networking"><div class="titlepage"><div><div><h3 class="title"><a id="doc-network"></a>Networking</h3></div></div></div><p>The Rio Balistic system is capable of communicating in the networking environment of modern day.
+It is solely based on open standards, open protocols and open formats. This means that Rio
+Balistic is capable of leveraging and co-existing with existing enterprise infrastructure
+and 3G technologies.</p><p>The world is converging, from proprietary protocols and formats, to TCP/IP systems. TCP/IP has
+proven itself to be able to scale to unprecedented heights, completely unimaginable 20 years ago.
+TCP/IP has been so successful that even the <span class="emphasis"><em>unlimited</em></span> number of 4 billion IP numbers once available
+have run out, and we are on the brink of a new IP version, namely IPv6.</p><p>The Rio Balistic system fully embraces IPv6 to the fullest extent possible. It is necessary to use
+IPv6 to allow the coming age of <span class="emphasis"><em>Internet of Things</em></span>, where not only people will be 24/7 connected
+to the Internet, but all equipment, machines, devices and possibly <span class="emphasis"><em>body area networks</em></span> consisting
+of the watches, clothes, shoes, glasses and other items we wear. IPv6 has such a massive address
+space that the smallest unit for a routed segment, say your living room, is 16,000,000,000,000,000,000
+addresses. And the smallest number of networks a company can apply for is 65,000 of those. For people
+growing up in the current situation of IPv4 number shortage, it is mind-blowing large numbers.</p><div class="section" title="Networking Rio Prime"><div class="titlepage"><div><div><h4 class="title"><a id="networking"></a>Networking Rio Prime</h4></div></div></div><p>Rio is expected to be fully connected to the Internet. It is well-known that the Internet is a volatile world
+and security is of utmost importance. This section documents how to correctly set up networking for Rio.</p><p>First of all, we must understand the basic requirements;</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p class="simpara">
+Rio needs client access to Internet for various reasons, such as;
+</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem">
+Centralized management of user access rights,
+</li><li class="listitem">
+Centralized management of configuration data,
+</li><li class="listitem">
+Sending of e-mail (only if no other mail server is available)
+</li><li class="listitem">
+Reading Weather information
+</li><li class="listitem">
+Reading other public information relevant to the application.
+</li></ul></div></li><li class="listitem"><p class="simpara">
+Rio needs to be accessible from the Internet, i.e. a Server;
+</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem">
+Programming the device,
+</li><li class="listitem">
+HMI - Viewing the process
+</li><li class="listitem">
+Accessing Historic data
+</li><li class="listitem">
+Backup/Restore to recover from hardware failures
+</li><li class="listitem">
+Viewing Reports
+</li><li class="listitem">
+Network Monitoring for early warnings of network failures
+</li><li class="listitem">
+Upgrading of the Rio Prime process control platform.
+</li></ul></div></li></ul></div><p>There are 3 recommended options for connecting Rio to the Internet, and we are dividing the explanation into a
+section of layman’s language and one section intended for IT departments and TCP/IP/network savvy persons.</p></div><div class="section" title="Networking in a Nutshell"><div class="titlepage"><div><div><h4 class="title"><a id="_networking_in_a_nutshell"></a>Networking in a Nutshell</h4></div></div></div></div><div class="section" title="Networking for the Pro"><div class="titlepage"><div><div><h4 class="title"><a id="_networking_for_the_pro"></a>Networking for the Pro</h4></div></div></div><p>As described above, each Rio device requires full access to the Internet, both as a server and as a client. We
+are here trying to outline the 3 basic options that we recommend to customers, depending on their specific needs.</p><p>If you think that your organization have a better solution, please contact Bali Automation’s Network department
+for discussion and it is likely that we can accommodate your request(s).</p><div class="section" title="Option CMA - Customer Managed Access"><div class="titlepage"><div><div><h5 class="title"><a id="_option_cma_customer_managed_access"></a>Option CMA - Customer Managed Access</h5></div></div></div><p>This option means that you, the Customer, retain full control of the networked environment. Bali Automation or
+its affiliates don’t have any opinion on exactly how you fulfill these requirements, which could be done with
+separate wiring, VLANs, punching holes in firewalls, or port forwarding.</p><p>This option will let the customer remain in full control of the network installation, Bali Automation and its
+affiliates are not involved.</p><p>Requirements;
+* Each Rio device is accessible from the public Internet over the following protocols;
+<span class="strong"><strong> HTTP - the public port can be any one, the Rio device is listening on port 8778.
+</strong></span> SSH - it is used for upgrading the Android applications running on the Rio devices. The SSH port on the Rio Device is 33477.
+* Each Rio device needs access to an SMTP server for sending email.
+* Each Rio device needs to access HTTP on the public Internet. Ports are unknown and application dependent.
+* Configuration data is read from an HTTP server. This server can either be internal on your network, or using Bali Automation’s central system.
+* Configuration data contains 5 links, pointing to static JSON documents,
+*. User access and roles,
+*. SMTP mail server data,
+*. Alarm delivery information
+*. Centralized time channels
+*. Advertisements in the screen saver.
+* Bali Automation and its affiliates have full IPv6 and IPv4 capability, so it is up to the customer to choose network protocol. We recommend IPv6 as the management is easier.</p></div><div class="section" title="Option BMA - Bali Managed Access"><div class="titlepage"><div><div><h5 class="title"><a id="_option_bma_bali_managed_access"></a>Option BMA - Bali Managed Access</h5></div></div></div><p>In this option, Bali will provide a <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> router, which will open an IPv6 tunnel (using openvpn, which
+is an encrypted UDP stream on port 1194) to central Bali tunnel broker(s).</p><p>The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> is equipped with a standard Linux firewall, restricted to the ports and IP numbers needed.
+Firewall details are available upon request.</p><p>The LAN ports on the <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> are default set to <span class="strong"><strong>10.87.78.x/24</strong></span>.</p><p>These are the requirements for this to work;
+* DHCP server for the WAN port on <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a>, which provides an IP number and a default gateway to the public Internet.
+* Stateful firewall allowing returning UDP packets to be forwarded to the originating port on the inside.</p><p>We also recommend;
+* Routing from the internal company network to the Rio devices, to improve latency and reduce dependency on vendor systems.</p></div><div class="section" title="Option BPA - Bali Provided Access"><div class="titlepage"><div><div><h5 class="title"><a id="_option_bpa_bali_provided_access"></a>Option BPA - Bali Provided Access</h5></div></div></div><p>In case the customer is not interested in being involved, the <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> is equipped with a 3G USB stick.
+To remove vendor lock-in, the subscription of the 3G account should be in the hands of the customer.</p><p>The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> will establish a IPv6 tunnel to the central Bali tunnel broker(s), but also expose the Rio
+devices on the public IP number of the 3G subscription, but on different ports. The private IP numbers used on the
+LAN network between the <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> and Rio are 10.87.78.x. The HTTP servers on those devices are
+exposed on the ports 8000+x, the SSH ports are exposed on the ports 2200+x.</p><p>This means that for IPv6 connectivity, the Rio devices are dependent on Bali infrastructure. If that infrastructure
+fails, direct access for critical access (HTTP and SSH) will remain intact. The advantage of this option is, of course,
+reduction of dependency on vendor provided infrastructure. The disadvantage is that the 3G networks, and the USB
+sticks used, are not 100% reliable. The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> will power cycle the USB stick to try and keep the
+3G connection operational as much as possible, but there will be network failures from time to time.</p><p><span class="strong"><strong>Advantages;</strong></span></p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem">
+No dependency on central infrastructure for rudimentary access (HTTP, SSH) making the overall system more resilient to failure.
+</li><li class="listitem">
+No vendor lock-in.
+</li></ul></div><p><span class="strong"><strong>Disadvantages;</strong></span></p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem">
+3G networks, and the equipment available to connect to 3G, isn’t 100% reliable and occasionally it will be unavailable.
+</li><li class="listitem">
+Monthly subscriptions are paid by customer,
+</li></ul></div></div></div><div class="section" title="Ethernet"><div class="titlepage"><div><div><h4 class="title"><a id="networking-ethernet"></a>Ethernet</h4></div></div></div><p>The Rio device has an Ethernet port on it. Rio requires public IPv6 connectivity. The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> device
+is made to handle the IPv6-to-IPv4 communication, and should be placed between the IP4 network and the IPv6 network
+of Rio devices.</p><p>One <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> can handle many Rio devices, but it is often difficult to provide the cabling needed.
+The low price of the <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> makes it possible to place one router in front of each Rio device
+if needed.</p></div><div class="section" title="WiFi"><div class="titlepage"><div><div><h4 class="title"><a id="networking-wifi"></a>WiFi</h4></div></div></div><p>The Rio device has WiFi built-in. Rio requires public IPv6 connectivity. The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> device
+is made to handle the IPv6-to-IPv4 communication, and should be placed between the IP4 network and the IPv6 network
+of Rio devices.</p><p>The <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> is very neat, but is limited in its number of ports. If you are using the Ethernet
+port on the <a class="xref" href="product-rio-netcomm.html" title="Rio NetComm Mini">Rio NetComm Mini</a> for connecting to the Internet, via a provided Ethernet, then the
+<a class="xref" href="product-rio.html" title="Rio">Balistic Rio</a> devices must be connected over WiFi.</p></div><div class="section" title="3G Direct"><div class="titlepage"><div><div><h4 class="title"><a id="networking-3Gdirect"></a>3G Direct</h4></div></div></div><p>The Rio device has an USB Host interface that is capable of 3G connectivity. Unfortunately, not all 3G USB adapters are
+compatible with the Android system. Please contact Bali Automation to verify a particular adapter.</p><p>Connecting the <a class="xref" href="product-rio.html" title="Rio">Balistic Rio</a> devices directly to 3G is not recommended, and only used as a last resort.</p><p>Bali Automation and its affiliates have found out that 3G networks are not stable enough, and the Android
+system is not 100% capable to always recover from these fluctuations.</p><p>If this is attempted, please ensure that the <a class="xref" href="product-rio.html" title="Rio">Balistic Rio</a> device is power cycled every day (we recommend
+early in the morning, say 06:15) to recover from this.</p></div></div><div xmlns="" xmlns:exsl="http://exslt.org/common" class="footer">(c) 2012-2013 Bali Automation</div></body></html>
